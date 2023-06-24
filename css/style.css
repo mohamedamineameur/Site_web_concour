@@ -15,17 +15,45 @@ header{
     
 }
 
-#titre_de_la_page{
-    text-align: center;
-    font-family:monospace;
-    font-size: 45pt;
-    margin: 0px;
+#logo, #logo2 {
+  position: absolute;
+  height: 100%;
 }
 
-#first_div{
-    text-align: center;
-    margin: 0px;
+#logo {
+  left: 0;
 }
+
+#logo2 {
+  right: 0;
+}
+
+.sous_titre{
+  margin-left: 5px;
+}
+#titre_de_la_page {
+  display: block;
+  margin: 0 auto;
+}
+
+#first_div {
+  margin-bottom: 2em;
+  position: relative;
+}
+#second_div {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  min-width: 500px;
+}
+
+
+main {
+  margin-top: 470px; 
+  min-width: 1200px;
+
+}
+
 a {
     color: #fff;
     text-decoration: none;
@@ -41,24 +69,6 @@ a {
     color: #fff;
   }
 
-  #second_div{
-    text-align: center;
-    margin: 0px;
-    max-width: 1080;
-    width: 100%;
-    
-    padding: 30px;
-
-    padding-right: 180em;
-  }
-  .sous_titre{
-
-    text-align: center;
-   
-    padding: 5px;
-    margin: 2px;
-  }
-
   footer{
     border: solid rgb(88, 220, 250) 1px;
     position: fixed;
@@ -70,24 +80,6 @@ a {
     
   }
 
-  #logo{
-    position: fixed;
-    top:0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    width: 140px;
-    height: 140px;
-  }
-  #logo2{
-    position: fixed;
-    top:0;
-    bottom: 0;
-    right:  0;
-    z-index: 1;
-    width: 140px;
-    height: 140px;
-  }
   main {
     display: flex;
     padding-top: 195em; 
@@ -99,7 +91,7 @@ a {
 
 font-size: 1.2em;
 
-    width: 50%;
+    width: 40%;
   }
   
   span{
@@ -150,11 +142,7 @@ font-size: 1.2em;
    color: #1f1e1e;
  }
 
- .fixed-size-element {
-    
-    min-width: 800px; ;
-    
-  }
+ 
   
   
  
