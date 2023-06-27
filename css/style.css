@@ -74,6 +74,14 @@ a {
   a:hover {
     color: #fff;
   }
+  #fond{
+    z-index: -2;
+    position: fixed;
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+  }
 
   #rechercher{
     color: #fff;
